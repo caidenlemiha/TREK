@@ -371,7 +371,7 @@ describe('LoginPage', () => {
   });
 
   describe('FE-PAGE-LOGIN-012: Password change form validates length', () => {
-    it('shows error when new password is shorter than 8 characters', async () => {
+    it('shows error when new password is shorter than 4 characters', async () => {
       server.use(
         http.post('/api/auth/login', () => {
           return HttpResponse.json({
@@ -395,13 +395,13 @@ describe('LoginPage', () => {
         expect(screen.getByPlaceholderText('New password')).toBeInTheDocument();
       });
 
-      await user.type(screen.getByPlaceholderText('New password'), 'short');
-      await user.type(screen.getByPlaceholderText('Confirm new password'), 'short');
+      await user.type(screen.getByPlaceholderText('New password'), 'abc');
+      await user.type(screen.getByPlaceholderText('Confirm new password'), 'abc');
       await user.click(screen.getByRole('button', { name: /update password/i }));
 
       await waitFor(() => {
         // The error, not the checklist line under the field that says the same rule.
-        expect(screen.getByText('Password must be at least 8 characters')).toBeInTheDocument();
+        expect(screen.getByText('Password must be at least 4 characters')).toBeInTheDocument();
       });
     });
   });
@@ -634,7 +634,7 @@ describe('LoginPage', () => {
   });
 
   describe('FE-PAGE-LOGIN-020: Register form validates password length', () => {
-    it('shows error when registration password is shorter than 8 characters', async () => {
+    it('shows error when registration password is shorter than 4 characters', async () => {
       const user = userEvent.setup();
       render(<LoginPage />);
 
@@ -650,12 +650,12 @@ describe('LoginPage', () => {
 
       await user.type(screen.getByPlaceholderText('admin'), 'newuser');
       await user.type(screen.getByPlaceholderText(EMAIL_PLACEHOLDER), 'new@example.com');
-      await user.type(screen.getByPlaceholderText(PASSWORD_PLACEHOLDER), 'short');
+      await user.type(screen.getByPlaceholderText(PASSWORD_PLACEHOLDER), 'abc');
       await user.click(screen.getByRole('button', { name: /create account/i }));
 
       await waitFor(() => {
         // The error, not the checklist line under the field that says the same rule.
-        expect(screen.getByText('Password must be at least 8 characters')).toBeInTheDocument();
+        expect(screen.getByText('Password must be at least 4 characters')).toBeInTheDocument();
       });
     });
   });

@@ -149,13 +149,13 @@ describe('Admin e2e (real auth + admin guard + temp SQLite)', () => {
     expect(audit).not.toBeNull();
   });
 
-  it('400 on user create with a weak password', async () => {
+  it('400 on user create with a too-short password', async () => {
     const res = await request(server)
       .post('/api/admin/users')
       .set('Cookie', sessionCookie(1))
-      .send({ username: 'weak', email: 'weak@x.y', password: 'short' });
+      .send({ username: 'weak', email: 'weak@x.y', password: 'abc' });
     expect(res.status).toBe(400);
-    expect(res.body).toEqual({ error: 'Password must be at least 8 characters' });
+    expect(res.body).toEqual({ error: 'Password must be at least 4 characters' });
   });
 
   it('409 on a duplicate email', async () => {

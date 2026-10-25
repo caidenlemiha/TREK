@@ -46,7 +46,7 @@ const login: TranslationStrings = {
   'login.invalidInviteLink': 'Dəvət keçidi etibarsızdır və ya vaxtı bitib',
   'login.oidcFailed': 'OIDC girişi uğursuz oldu',
   'login.usernameRequired': 'İstifadəçi adı tələb olunur',
-  'login.passwordMinLength': 'Parol ən azı 8 simvoldan ibarət olmalıdır',
+  'login.passwordMinLength': 'Parol ən azı 4 simvoldan ibarət olmalıdır',
   'login.forgotPassword': 'Parolu unutmusunuz?',
   'login.rememberMe': 'Məni yadda saxla',
   'login.forgotPasswordTitle': 'Parolunuzu sıfırlayın',

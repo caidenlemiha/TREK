@@ -60,10 +60,10 @@ describe('useResetPassword', () => {
     expect(authApi.resetPassword).not.toHaveBeenCalled();
   });
 
-  it('FE-PAGE-RESET-004: rejects a password shorter than eight characters', async () => {
+  it('FE-PAGE-RESET-004: rejects a password shorter than four characters', async () => {
     const { result } = renderHook(() => useResetPassword());
 
-    await submit(result, 'short1');
+    await submit(result, 'abc');
     expect(result.current.error).toBe('settings.passwordTooShort');
     expect(authApi.resetPassword).not.toHaveBeenCalled();
   });

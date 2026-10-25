@@ -33,7 +33,7 @@ const login: TranslationStrings = {
   'login.invalidInviteLink': "Lien d'invitation invalide ou expiré",
   'login.oidcFailed': 'Échec de connexion OIDC',
   'login.usernameRequired': "Le nom d'utilisateur est obligatoire",
-  'login.passwordMinLength': 'Le mot de passe doit comporter au moins 8 caractères',
+  'login.passwordMinLength': 'Le mot de passe doit comporter au moins 4 caractères',
   'login.forgotPassword': 'Mot de passe oublié ?',
   'login.rememberMe': 'Se souvenir de moi',
   'login.forgotPasswordTitle': 'Réinitialiser votre mot de passe',

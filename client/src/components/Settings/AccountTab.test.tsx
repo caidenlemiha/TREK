@@ -174,10 +174,10 @@ describe('AccountTab – Password change', () => {
     render(<><ToastContainer /><AccountTab /></>);
     const passwordInputs = document.querySelectorAll('input[type="password"]');
     await user.type(passwordInputs[0], 'currentpass');
-    await user.type(passwordInputs[1], 'short');
-    await user.type(passwordInputs[2], 'short');
+    await user.type(passwordInputs[1], 'abc');
+    await user.type(passwordInputs[2], 'abc');
     await user.click(screen.getByText('Update password'));
-    expect(await screen.findByText(/at least 8 characters/i)).toBeInTheDocument();
+    expect(await screen.findByText(/at least 4 characters/i)).toBeInTheDocument();
   });
 
   it('FE-COMP-ACCOUNT-019: password change clears fields on success', async () => {

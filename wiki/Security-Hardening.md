@@ -62,9 +62,8 @@ A backup restore and the hourly demo reset replace the whole database file. Both
 
 TREK enforces a minimum password policy on all registrations and password changes:
 
-- Minimum 8 characters
-- Must contain uppercase, lowercase, digit, and special character
-- Common passwords and fully-repetitive strings are rejected
+- Minimum 4 characters
+- No character-class, repetition, or common-password restrictions
 - Passwords are hashed with bcrypt (cost factor 12)
 
 Every form that sets a password (registration, including through an invite link, the new password asked for on first login, the password reset, a password change in **Settings > Account**, and the admin's **Create User** and **Edit User** dialogs) lists these rules as a checklist under the field and ticks each one off while you type, using the server's own policy.

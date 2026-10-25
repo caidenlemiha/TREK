@@ -203,12 +203,12 @@ describe('Password change', () => {
     expect(res.status).toBe(401);
   });
 
-  it('PROFILE-008 — weak new password is rejected', async () => {
+  it('PROFILE-008 — too-short new password is rejected', async () => {
     const { user, password } = createUser(testDb);
     const res = await request(app)
       .put('/api/auth/me/password')
       .set('Cookie', authCookie(user.id))
-      .send({ current_password: password, new_password: 'weak', confirm_password: 'weak' });
+      .send({ current_password: password, new_password: 'abc', confirm_password: 'abc' });
     expect(res.status).toBe(400);
   });
 });

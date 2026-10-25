@@ -33,7 +33,7 @@ const login: TranslationStrings = {
   'login.invalidInviteLink': "Enllaç d'invitació no vàlid o caducat",
   'login.oidcFailed': "Error d'inici de sessió OIDC",
   'login.usernameRequired': "El nom d'usuari és obligatori",
-  'login.passwordMinLength': 'La contrasenya ha de tenir almenys 8 caràcters',
+  'login.passwordMinLength': 'La contrasenya ha de tenir almenys 4 caràcters',
   'login.forgotPassword': 'Has oblidat la contrasenya?',
   'login.forgotPasswordTitle': 'Restableix la teva contrasenya',
   'login.forgotPasswordBody':
@@ -50,7 +50,7 @@ const login: TranslationStrings = {
   'login.passwordsDontMatch': 'Les contrasenyes no coincideixen',
   'login.mfaCode': 'Codi 2FA',
   'login.resetPasswordTitle': 'Estableix una contrasenya nova',
-  'login.resetPasswordBody': 'Tria una contrasenya segura que no hagis utilitzat aquí abans. Mínim 8 caràcters.',
+  'login.resetPasswordBody': 'Tria una contrasenya segura que no hagis utilitzat aquí abans. Mínim 4 caràcters.',
   'login.resetPasswordMfaBody': 'Introdueix el teu codi 2FA o un codi de reserva per completar el restabliment.',
   'login.resetPasswordSubmit': 'Restableix la contrasenya',
   'login.resetPasswordVerify': 'Verifica i restableix',

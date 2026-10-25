@@ -351,11 +351,11 @@ describe('createUser (service)', () => {
     expect(result.status).toBe(409);
   });
 
-  it('ADMIN-SVC-007 — returns 400 for weak password', async () => {
+  it('ADMIN-SVC-007 — returns 400 for too-short password', async () => {
     const result = (await svcCreateUser({
       username: 'weakpwuser',
       email: 'weakpw@test.com',
-      password: 'short',
+      password: 'abc',
     })) as any;
     expect(result.status).toBe(400);
   });
@@ -396,9 +396,9 @@ describe('updateUser', () => {
     expect(result.status).toBe(409);
   });
 
-  it('ADMIN-SVC-013 — returns 400 for weak password', async () => {
+  it('ADMIN-SVC-013 — returns 400 for too-short password', async () => {
     const { user } = createUser(testDb);
-    const result = (await updateUser(String(user.id), { password: 'weak' })) as any;
+    const result = (await updateUser(String(user.id), { password: 'abc' })) as any;
     expect(result.status).toBe(400);
   });
 

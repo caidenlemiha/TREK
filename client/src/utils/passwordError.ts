@@ -2,9 +2,6 @@ import { passwordProblem, type PasswordProblem } from '@trek/shared'
 
 const PROBLEM_KEYS: Record<PasswordProblem, string> = {
   tooShort: 'settings.passwordTooShort',
-  repetitive: 'settings.passwordRepetitive',
-  common: 'settings.passwordCommon',
-  weak: 'settings.passwordWeak',
 }
 
 /**

@@ -47,7 +47,7 @@ const login: TranslationStrings = {
   'login.invalidInviteLink': 'Μη έγκυρος ή ληγμένος σύνδεσμος πρόσκλησης',
   'login.oidcFailed': 'Η σύνδεση OIDC απέτυχε',
   'login.usernameRequired': 'Το όνομα χρήστη είναι υποχρεωτικό',
-  'login.passwordMinLength': 'Ο κωδικός πρέπει να έχει τουλάχιστον 8 χαρακτήρες',
+  'login.passwordMinLength': 'Ο κωδικός πρέπει να έχει τουλάχιστον 4 χαρακτήρες',
   'login.forgotPassword': 'Ξεχάσατε τον κωδικό;',
   'login.rememberMe': 'Να με θυμάσαι',
   'login.forgotPasswordTitle': 'Επαναφορά του κωδικού σας',

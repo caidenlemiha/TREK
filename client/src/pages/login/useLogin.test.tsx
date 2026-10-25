@@ -650,14 +650,14 @@ describe('useLogin — register submit', () => {
     act(() => result.current.setMode('register'));
     act(() => {
       result.current.setUsername('newuser');
-      result.current.setPassword('short');
+      result.current.setPassword('abc');
     });
 
     await act(async () => {
       await result.current.handleSubmit(formEvent());
     });
 
-    expect(result.current.error).toBe('Password must be at least 8 characters');
+    expect(result.current.error).toBe('Password must be at least 4 characters');
     expect(auth.register).not.toHaveBeenCalled();
   });
 
@@ -907,12 +907,12 @@ describe('useLogin — forced password change', () => {
   it('FE-LOGIN-HOOK-049: refuses a new password below the minimum length', async () => {
     const result = await reachPasswordChange();
 
-    act(() => result.current.setNewPassword('short'));
+    act(() => result.current.setNewPassword('abc'));
     await act(async () => {
       await result.current.handleSubmit(formEvent());
     });
 
-    expect(result.current.error).toBe('Password must be at least 8 characters');
+    expect(result.current.error).toBe('Password must be at least 4 characters');
   });
 
   it('FE-LOGIN-HOOK-050: refuses a mismatched confirmation', async () => {
