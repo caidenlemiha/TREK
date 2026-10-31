@@ -145,6 +145,8 @@ const tours: TranslationStrings = {
   'tours.planner.plannedTotalInfoLabel': 'Over de geplande totale duur',
   'tours.planner.plannedTotalManual': 'Handmatige waarde',
   'tours.planner.timeValueInvalid': 'Voer een geheel getal in van 0 tot 1440 minuten.',
+  'tours.planner.plannedTotalOverDay':
+    'Looptijd en pauzes komen samen op meer dan 24 uur per dag. Maak er een meerdaagse tocht van met ‘Etappe hier beëindigen’ bij een stop, of vul een kortere geplande totale duur in.',
   'tours.planner.walkingTimeUnknown': 'Niet berekend',
   'tours.planner.walkingShort': 'Wandelen',
   'tours.planner.breaksShort': 'Pauzes',
@@ -967,6 +969,7 @@ const tours: TranslationStrings = {
   'tours.import.archiveNoKmlIn': 'Geen KML-bestand gevonden in {name}',
   'tours.import.archiveTooLargeIn': '{name} is uitgepakt te groot',
   'tours.import.previewDuplicate': 'Al in de reis',
+  'tours.import.previewAdopts': 'Al een track in de reis, wordt een tocht',
   'tours.import.previewAllDuplicates': 'Alle tracks staan al in de reis, er is niets te importeren.',
   'tours.import.previewAs': 'Importeren als',
   'tours.import.previewConfirm': '{count} tochten importeren',

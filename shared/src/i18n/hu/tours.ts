@@ -143,6 +143,8 @@ const tours: TranslationStrings = {
   'tours.planner.plannedTotalInfoLabel': 'A tervezett teljes időtartamról',
   'tours.planner.plannedTotalManual': 'Kézi érték',
   'tours.planner.timeValueInvalid': 'Adjon meg egész értéket 0 és 1440 perc között.',
+  'tours.planner.plannedTotalOverDay':
+    'A menetidő a pihenőkkel együtt napi 24 óránál több. Tegye többnapossá a „Szakasz vége itt” lehetőséggel egy megállónál, vagy adjon meg rövidebb tervezett teljes időtartamot.',
   'tours.planner.walkingTimeUnknown': 'Nincs kiszámítva',
   'tours.planner.walkingShort': 'Séta',
   'tours.planner.breaksShort': 'Szünetek',
@@ -963,6 +965,7 @@ const tours: TranslationStrings = {
   'tours.import.archiveNoKmlIn': 'A(z) {name} nem tartalmaz KML-fájlt',
   'tours.import.archiveTooLargeIn': 'A(z) {name} kicsomagolva túl nagy',
   'tours.import.previewDuplicate': 'Már az utazásban van',
+  'tours.import.previewAdopts': 'Már nyomvonalként szerepel az utazásban, túra lesz belőle',
   'tours.import.previewAllDuplicates': 'Minden nyomvonal már az utazásban van, nincs mit importálni.',
   'tours.import.previewAs': 'Importálás mint',
   'tours.import.previewConfirm': '{count} túra importálása',

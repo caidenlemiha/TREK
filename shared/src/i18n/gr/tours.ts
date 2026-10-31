@@ -148,6 +148,8 @@ const tours: TranslationStrings = {
   'tours.planner.plannedTotalInfoLabel': 'Σχετικά με τη συνολική προγραμματισμένη διάρκεια',
   'tours.planner.plannedTotalManual': 'Χειροκίνητη τιμή',
   'tours.planner.timeValueInvalid': 'Εισαγάγετε ακέραια τιμή από 0 έως 1440 λεπτά.',
+  'tours.planner.plannedTotalOverDay':
+    'Ο χρόνος πεζοπορίας μαζί με τις στάσεις ξεπερνά τις 24 ώρες την ημέρα. Κάντε τη πολυήμερη με «Τέλος σκέλους εδώ» σε μια στάση ή εισαγάγετε μικρότερη συνολική προγραμματισμένη διάρκεια.',
   'tours.planner.walkingTimeUnknown': 'Δεν έχει υπολογιστεί',
   'tours.planner.walkingShort': 'Περπάτημα',
   'tours.planner.breaksShort': 'Διαλείμματα',
@@ -986,6 +988,7 @@ const tours: TranslationStrings = {
   'tours.import.archiveNoKmlIn': 'Δεν βρέθηκε αρχείο KML στο {name}',
   'tours.import.archiveTooLargeIn': 'Το {name} είναι πολύ μεγάλο μετά την αποσυμπίεση',
   'tours.import.previewDuplicate': 'Υπάρχει ήδη στο ταξίδι',
+  'tours.import.previewAdopts': 'Υπάρχει ήδη ως διαδρομή στο ταξίδι, γίνεται εκδρομή',
   'tours.import.previewAllDuplicates': 'Όλα τα ίχνη υπάρχουν ήδη στο ταξίδι, δεν υπάρχει τίποτα για εισαγωγή.',
   'tours.import.previewAs': 'Εισαγωγή ως',
   'tours.import.previewConfirm': 'Εισαγωγή {count} διαδρομών',

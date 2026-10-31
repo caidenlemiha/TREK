@@ -154,6 +154,8 @@ const tours: TranslationStrings = {
   'tours.planner.plannedTotalInfoLabel': 'O planowanym całkowitym czasie',
   'tours.planner.plannedTotalManual': 'Wartość ręczna',
   'tours.planner.timeValueInvalid': 'Wpisz liczbę całkowitą od 0 do 1440 minut.',
+  'tours.planner.plannedTotalOverDay':
+    'Czas marszu i przerwy dają razem ponad 24 godziny na dzień. Zrób z tego trasę wielodniową przez „Zakończ etap tutaj” na postoju albo wpisz krótszy planowany całkowity czas.',
   'tours.planner.walkingTimeUnknown': 'Nieobliczono',
   'tours.planner.walkingShort': 'Marsz',
   'tours.planner.breaksShort': 'Przerwy',
@@ -986,6 +988,7 @@ const tours: TranslationStrings = {
   'tours.import.archiveNoKmlIn': 'W pliku {name} nie ma pliku KML',
   'tours.import.archiveTooLargeIn': 'Plik {name} po rozpakowaniu jest za duży',
   'tours.import.previewDuplicate': 'Już jest w podróży',
+  'tours.import.previewAdopts': 'Już jest śladem w podróży, stanie się wycieczką',
   'tours.import.previewAllDuplicates': 'Wszystkie ślady są już w podróży, nie ma czego importować.',
   'tours.import.previewAs': 'Importuj jako',
   'tours.import.previewConfirm': 'Importuj {count} wycieczki',

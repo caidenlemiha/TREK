@@ -134,6 +134,8 @@ const tours: TranslationStrings = {
   'tours.planner.plannedTotalInfoLabel': 'เกี่ยวกับระยะเวลารวมที่วางแผนไว้',
   'tours.planner.plannedTotalManual': 'กำหนดเอง',
   'tours.planner.timeValueInvalid': 'ป้อนค่าจำนวนเต็มตั้งแต่ 0 ถึง 1440 นาที',
+  'tours.planner.plannedTotalOverDay':
+    'เวลาเดินรวมเวลาพักเกิน 24 ชั่วโมงต่อวัน ให้แบ่งเป็นทริปหลายวันด้วย “จบช่วงที่นี่” ที่จุดแวะ หรือป้อนระยะเวลารวมที่วางแผนไว้ให้สั้นลง',
   'tours.planner.walkingTimeUnknown': 'ยังไม่ได้คำนวณ',
   'tours.planner.walkingShort': 'เดิน',
   'tours.planner.breaksShort': 'การพัก',
@@ -907,6 +909,7 @@ const tours: TranslationStrings = {
   'tours.import.archiveNoKmlIn': 'ไม่พบไฟล์ KML ใน {name}',
   'tours.import.archiveTooLargeIn': '{name} ใหญ่เกินไปเมื่อแตกไฟล์',
   'tours.import.previewDuplicate': 'มีอยู่ในทริปแล้ว',
+  'tours.import.previewAdopts': 'มีอยู่ในทริปเป็นเส้นทางแล้ว จะกลายเป็นทัวร์',
   'tours.import.previewAllDuplicates': 'ทุกแทร็กมีอยู่ในทริปแล้ว จึงไม่มีอะไรให้นำเข้า',
   'tours.import.previewAs': 'นำเข้าเป็น',
   'tours.import.previewConfirm': 'นำเข้า {count} ทริป',

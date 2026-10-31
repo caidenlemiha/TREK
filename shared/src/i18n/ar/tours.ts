@@ -157,6 +157,8 @@ const tours: TranslationStrings = {
   'tours.planner.plannedTotalInfoLabel': 'حول المدة الإجمالية المخططة',
   'tours.planner.plannedTotalManual': 'تعديل يدوي',
   'tours.planner.timeValueInvalid': 'أدخل قيمة صحيحة من 0 إلى 1440 دقيقة.',
+  'tours.planner.plannedTotalOverDay':
+    'وقت المشي مع الاستراحات يزيد على 24 ساعة في اليوم. اجعلها جولة لعدة أيام عبر «إنهاء المرحلة هنا» عند إحدى المحطات، أو أدخل مدة إجمالية مخططة أقصر.',
   'tours.planner.walkingTimeUnknown': 'غير محسوب',
   'tours.planner.walkingShort': 'مشي',
   'tours.planner.breaksShort': 'استراحات',
@@ -969,6 +971,7 @@ const tours: TranslationStrings = {
   'tours.import.archiveNoKmlIn': 'لم يُعثر على ملف KML في {name}',
   'tours.import.archiveTooLargeIn': '{name} كبير جدًا بعد فك الضغط',
   'tours.import.previewDuplicate': 'موجود بالفعل في الرحلة',
+  'tours.import.previewAdopts': 'مسار موجود في الرحلة، سيصبح جولة',
   'tours.import.previewAllDuplicates': 'كل المسارات موجودة بالفعل في الرحلة، فلا شيء للاستيراد.',
   'tours.import.previewAs': 'الاستيراد كـ',
   'tours.import.previewConfirm': 'استيراد {count} جولة',

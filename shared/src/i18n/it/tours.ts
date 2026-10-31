@@ -145,6 +145,8 @@ const tours: TranslationStrings = {
   'tours.planner.plannedTotalInfoLabel': 'Informazioni sulla durata totale pianificata',
   'tours.planner.plannedTotalManual': 'Valore manuale',
   'tours.planner.timeValueInvalid': 'Inserisci un valore intero da 0 a 1440 minuti.',
+  'tours.planner.plannedTotalOverDay':
+    'Il tempo di cammino e le pause superano le 24 ore al giorno. Rendilo un itinerario di più giorni con “Termina la tappa qui” su una sosta, oppure inserisci una durata totale pianificata più breve.',
   'tours.planner.walkingTimeUnknown': 'Non calcolato',
   'tours.planner.walkingShort': 'Cammino',
   'tours.planner.breaksShort': 'Pause',
@@ -970,6 +972,7 @@ const tours: TranslationStrings = {
   'tours.import.archiveNoKmlIn': 'Nessun file KML trovato in {name}',
   'tours.import.archiveTooLargeIn': '{name} è troppo grande una volta decompresso',
   'tours.import.previewDuplicate': 'Già nel viaggio',
+  'tours.import.previewAdopts': 'Già una traccia nel viaggio, diventa un’escursione',
   'tours.import.previewAllDuplicates': 'Tutte le tracce sono già nel viaggio, non c’è nulla da importare.',
   'tours.import.previewAs': 'Importa come',
   'tours.import.previewConfirm': 'Importa {count} tour',

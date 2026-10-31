@@ -141,6 +141,8 @@ const tours: TranslationStrings = {
   'tours.planner.plannedTotalInfoLabel': 'Om planerad total tid',
   'tours.planner.plannedTotalManual': 'Manuellt värde',
   'tours.planner.timeValueInvalid': 'Ange ett helt värde från 0 till 1440 minuter.',
+  'tours.planner.plannedTotalOverDay':
+    'Gångtid och pauser blir tillsammans mer än 24 timmar per dag. Gör det till en flerdagarstur med ”Avsluta etappen här” vid ett stopp, eller ange en kortare planerad total tid.',
   'tours.planner.walkingTimeUnknown': 'Inte beräknad',
   'tours.planner.walkingShort': 'Gång',
   'tours.planner.breaksShort': 'Pauser',
@@ -945,6 +947,7 @@ const tours: TranslationStrings = {
   'tours.import.archiveNoKmlIn': 'Ingen KML-fil hittades i {name}',
   'tours.import.archiveTooLargeIn': '{name} är för stor när den packats upp',
   'tours.import.previewDuplicate': 'Finns redan i resan',
+  'tours.import.previewAdopts': 'Finns redan som spår i resan, blir en tur',
   'tours.import.previewAllDuplicates': 'Alla spår finns redan i resan, det finns inget att importera.',
   'tours.import.previewAs': 'Importera som',
   'tours.import.previewConfirm': 'Importera {count} turer',

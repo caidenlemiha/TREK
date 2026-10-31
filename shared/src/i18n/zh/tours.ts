@@ -128,6 +128,8 @@ const tours: TranslationStrings = {
   'tours.planner.plannedTotalInfoLabel': '关于计划总时长',
   'tours.planner.plannedTotalManual': '手动覆盖',
   'tours.planner.timeValueInvalid': '请输入 0 到 1440 分钟之间的整数。',
+  'tours.planner.plannedTotalOverDay':
+    '步行时间加休息每天超过 24 小时。请在某个停靠点选择“在此结束阶段”，把它分成多日行程，或输入更短的计划总时长。',
   'tours.planner.walkingTimeUnknown': '未计算',
   'tours.planner.walkingShort': '步行',
   'tours.planner.breaksShort': '休息',
@@ -876,6 +878,7 @@ const tours: TranslationStrings = {
   'tours.import.archiveNoKmlIn': '{name} 中没有 KML 文件',
   'tours.import.archiveTooLargeIn': '{name} 解压后过大',
   'tours.import.previewDuplicate': '已在行程中',
+  'tours.import.previewAdopts': '已作为轨迹在行程中，将变为游览',
   'tours.import.previewAllDuplicates': '所有轨迹都已在行程中，没有可导入的内容。',
   'tours.import.previewAs': '导入为',
   'tours.import.previewConfirm': '导入 {count} 条路线',

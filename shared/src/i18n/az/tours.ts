@@ -142,6 +142,8 @@ const tours: TranslationStrings = {
   'tours.planner.plannedTotalInfoLabel': 'Planlaşdırılmış ümumi müddət haqqında',
   'tours.planner.plannedTotalManual': 'Əl ilə dəyişdirmə',
   'tours.planner.timeValueInvalid': '0 ilə 1440 dəqiqə arasında tam dəyər daxil edin.',
+  'tours.planner.plannedTotalOverDay':
+    'Yeriş vaxtı və fasilələr gündə 24 saatdan çox edir. Dayanacaqda “Mərhələni burada bitir” ilə onu çoxgünlük tura çevirin və ya daha qısa planlaşdırılmış ümumi müddət daxil edin.',
   'tours.planner.walkingTimeUnknown': 'Hesablanmayıb',
   'tours.planner.walkingShort': 'Gəzinti',
   'tours.planner.breaksShort': 'Fasilələr',
@@ -958,6 +960,7 @@ const tours: TranslationStrings = {
   'tours.import.archiveNoKmlIn': '{name} içində KML faylı tapılmadı',
   'tours.import.archiveTooLargeIn': '{name} açıldıqdan sonra çox böyükdür',
   'tours.import.previewDuplicate': 'Artıq səyahətdədir',
+  'tours.import.previewAdopts': 'Artıq səyahətdə trek kimi var, tura çevriləcək',
   'tours.import.previewAllDuplicates': 'Bütün treklər artıq səyahətdədir, idxal ediləcək heç nə yoxdur.',
   'tours.import.previewAs': 'Bu kimi idxal et',
   'tours.import.previewConfirm': '{count} tur idxal et',

@@ -141,6 +141,8 @@ const tours: TranslationStrings = {
   'tours.planner.plannedTotalInfoLabel': 'Về tổng thời lượng dự kiến',
   'tours.planner.plannedTotalManual': 'Ghi đè thủ công',
   'tours.planner.timeValueInvalid': 'Nhập giá trị nguyên từ 0 đến 1440 phút.',
+  'tours.planner.plannedTotalOverDay':
+    'Thời gian đi bộ cộng thời gian nghỉ vượt quá 24 giờ mỗi ngày. Hãy chia thành chuyến nhiều ngày bằng “Kết thúc chặng tại đây” ở một điểm dừng, hoặc nhập tổng thời lượng dự kiến ngắn hơn.',
   'tours.planner.walkingTimeUnknown': 'Chưa tính',
   'tours.planner.walkingShort': 'Đi bộ',
   'tours.planner.breaksShort': 'Nghỉ',
@@ -941,6 +943,7 @@ const tours: TranslationStrings = {
   'tours.import.archiveNoKmlIn': 'Không tìm thấy tệp KML trong {name}',
   'tours.import.archiveTooLargeIn': '{name} quá lớn sau khi giải nén',
   'tours.import.previewDuplicate': 'Đã có trong chuyến đi',
+  'tours.import.previewAdopts': 'Đã có trong chuyến đi dưới dạng tuyến, sẽ thành chuyến tham quan',
   'tours.import.previewAllDuplicates': 'Mọi vết đã có trong chuyến đi, không có gì để nhập.',
   'tours.import.previewAs': 'Nhập dưới dạng',
   'tours.import.previewConfirm': 'Nhập {count} chuyến',

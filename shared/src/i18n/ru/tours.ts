@@ -155,6 +155,8 @@ const tours: TranslationStrings = {
   'tours.planner.plannedTotalInfoLabel': 'О запланированной общей длительности',
   'tours.planner.plannedTotalManual': 'Ручное значение',
   'tours.planner.timeValueInvalid': 'Введите целое значение от 0 до 1440 минут.',
+  'tours.planner.plannedTotalOverDay':
+    'Время в пути вместе с перерывами превышает 24 часа в день. Сделайте маршрут многодневным через «Завершить этап здесь» на остановке или введите меньшую запланированную общую длительность.',
   'tours.planner.walkingTimeUnknown': 'Не рассчитано',
   'tours.planner.walkingShort': 'Ходьба',
   'tours.planner.breaksShort': 'Перерывы',
@@ -989,6 +991,7 @@ const tours: TranslationStrings = {
   'tours.import.archiveNoKmlIn': 'В {name} не найден файл KML',
   'tours.import.archiveTooLargeIn': '{name} слишком велик после распаковки',
   'tours.import.previewDuplicate': 'Уже в поездке',
+  'tours.import.previewAdopts': 'Уже есть в поездке как трек, станет туром',
   'tours.import.previewAllDuplicates': 'Все треки уже в поездке, импортировать нечего.',
   'tours.import.previewAs': 'Импортировать как',
   'tours.import.previewConfirm': 'Импортировать {count} тура',

@@ -134,6 +134,8 @@ const tours: TranslationStrings = {
   'tours.planner.plannedTotalInfoLabel': '예상 총 소요 시간 정보',
   'tours.planner.plannedTotalManual': '직접 입력',
   'tours.planner.timeValueInvalid': '0~1440분 사이의 정수 값을 입력하세요.',
+  'tours.planner.plannedTotalOverDay':
+    '걷는 시간과 휴식을 합치면 하루 24시간을 넘습니다. 경유지에서 “여기서 구간 종료”로 여러 날 투어로 나누거나, 더 짧은 예상 총 소요 시간을 입력하세요.',
   'tours.planner.walkingTimeUnknown': '계산되지 않음',
   'tours.planner.walkingShort': '도보',
   'tours.planner.breaksShort': '휴식',
@@ -922,6 +924,7 @@ const tours: TranslationStrings = {
   'tours.import.archiveNoKmlIn': '{name}에 KML 파일이 없습니다',
   'tours.import.archiveTooLargeIn': '{name}은(는) 압축을 풀면 너무 큽니다',
   'tours.import.previewDuplicate': '이미 여행에 있음',
+  'tours.import.previewAdopts': '이미 여행에 트랙으로 있음, 투어가 됩니다',
   'tours.import.previewAllDuplicates': '모든 트랙이 이미 여행에 있어 가져올 것이 없습니다.',
   'tours.import.previewAs': '가져올 유형',
   'tours.import.previewConfirm': '투어 {count}개 가져오기',

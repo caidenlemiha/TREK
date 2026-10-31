@@ -146,6 +146,8 @@ const tours: TranslationStrings = {
   'tours.planner.plannedTotalInfoLabel': 'Sobre la durada total planificada',
   'tours.planner.plannedTotalManual': 'Valor manual',
   'tours.planner.timeValueInvalid': 'Introduïu un valor enter de 0 a 1440 minuts.',
+  'tours.planner.plannedTotalOverDay':
+    'El temps de marxa i les pauses sumen més de 24 hores al dia. Feu-ne una ruta de diversos dies amb “Acaba l’etapa aquí” en una parada, o introduïu una durada total planificada més curta.',
   'tours.planner.walkingTimeUnknown': 'No calculat',
   'tours.planner.walkingShort': 'Caminada',
   'tours.planner.breaksShort': 'Pauses',
@@ -966,6 +968,7 @@ const tours: TranslationStrings = {
   'tours.import.archiveNoKmlIn': "No s'ha trobat cap fitxer KML a {name}",
   'tours.import.archiveTooLargeIn': '{name} és massa gran un cop descomprimit',
   'tours.import.previewDuplicate': 'Ja és al viatge',
+  'tours.import.previewAdopts': 'Ja és una traça al viatge, es converteix en excursió',
   'tours.import.previewAllDuplicates': 'Tots els tracks ja són al viatge, no hi ha res a importar.',
   'tours.import.previewAs': 'Importa com a',
   'tours.import.previewConfirm': 'Importa {count} rutes',

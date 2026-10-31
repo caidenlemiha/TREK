@@ -139,6 +139,8 @@ const tours: TranslationStrings = {
   'tours.planner.plannedTotalInfoLabel': 'Tentang total durasi yang direncanakan',
   'tours.planner.plannedTotalManual': 'Penggantian manual',
   'tours.planner.timeValueInvalid': 'Masukkan nilai bulat dari 0 hingga 1440 menit.',
+  'tours.planner.plannedTotalOverDay':
+    'Waktu jalan ditambah istirahat lebih dari 24 jam sehari. Jadikan tur beberapa hari dengan “Akhiri etape di sini” di sebuah perhentian, atau masukkan total durasi rencana yang lebih singkat.',
   'tours.planner.walkingTimeUnknown': 'Belum dihitung',
   'tours.planner.walkingShort': 'Jalan kaki',
   'tours.planner.breaksShort': 'Istirahat',
@@ -954,6 +956,7 @@ const tours: TranslationStrings = {
   'tours.import.archiveNoKmlIn': 'Tidak ada berkas KML di {name}',
   'tours.import.archiveTooLargeIn': '{name} terlalu besar setelah diekstrak',
   'tours.import.previewDuplicate': 'Sudah ada di perjalanan',
+  'tours.import.previewAdopts': 'Sudah ada sebagai jalur di perjalanan, menjadi tur',
   'tours.import.previewAllDuplicates': 'Semua jejak sudah ada di perjalanan, tidak ada yang perlu diimpor.',
   'tours.import.previewAs': 'Impor sebagai',
   'tours.import.previewConfirm': 'Impor {count} tur',

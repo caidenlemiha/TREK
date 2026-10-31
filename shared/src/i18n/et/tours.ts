@@ -143,6 +143,8 @@ const tours: TranslationStrings = {
   'tours.planner.plannedTotalInfoLabel': 'Planeeritud kogukestusest',
   'tours.planner.plannedTotalManual': 'Käsitsi määratud',
   'tours.planner.timeValueInvalid': 'Sisestage täisarv vahemikus 0–1440 minutit.',
+  'tours.planner.plannedTotalOverDay':
+    'Liikumisaeg koos pausidega on üle 24 tunni päevas. Tee sellest mitmepäevane matk, valides peatuses „Lõpeta etapp siin“, või sisesta lühem planeeritud kogukestus.',
   'tours.planner.walkingTimeUnknown': 'Arvutamata',
   'tours.planner.walkingShort': 'Kõnd',
   'tours.planner.breaksShort': 'Pausid',
@@ -948,6 +950,7 @@ const tours: TranslationStrings = {
   'tours.import.archiveNoKmlIn': 'Failis {name} pole KML-faili',
   'tours.import.archiveTooLargeIn': 'Fail {name} on lahtipakituna liiga suur',
   'tours.import.previewDuplicate': 'Juba reisil',
+  'tours.import.previewAdopts': 'Juba reisil rajana, muutub retkeks',
   'tours.import.previewAllDuplicates': 'Kõik rajad on juba reisil, pole midagi importida.',
   'tours.import.previewAs': 'Impordi kui',
   'tours.import.previewConfirm': 'Impordi {count} matka',

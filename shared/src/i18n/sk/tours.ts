@@ -145,6 +145,8 @@ const tours: TranslationStrings = {
   'tours.planner.plannedTotalInfoLabel': 'O plánovanej celkovej dobe',
   'tours.planner.plannedTotalManual': 'Ručná úprava',
   'tours.planner.timeValueInvalid': 'Zadajte celú hodnotu od 0 do 1440 minút.',
+  'tours.planner.plannedTotalOverDay':
+    'Čas chôdze a prestávky dávajú spolu viac než 24 hodín denne. Urobte z nej viacdňovú túru cez „Ukončiť etapu tu“ pri zastávke alebo zadajte kratšiu plánovanú celkovú dobu.',
   'tours.planner.walkingTimeUnknown': 'Nevypočítané',
   'tours.planner.walkingShort': 'Chôdza',
   'tours.planner.breaksShort': 'Prestávky',
@@ -954,6 +956,7 @@ const tours: TranslationStrings = {
   'tours.import.archiveNoKmlIn': 'V súbore {name} nie je žiadny súbor KML',
   'tours.import.archiveTooLargeIn': 'Súbor {name} je po rozbalení príliš veľký',
   'tours.import.previewDuplicate': 'Už je v ceste',
+  'tours.import.previewAdopts': 'Už je v ceste ako trasa, stane sa túrou',
   'tours.import.previewAllDuplicates': 'Všetky trasy už v ceste sú, nie je čo importovať.',
   'tours.import.previewAs': 'Importovať ako',
   'tours.import.previewConfirm': 'Importovať {count} túr',

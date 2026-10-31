@@ -141,6 +141,8 @@ const tours: TranslationStrings = {
   'tours.planner.plannedTotalInfoLabel': 'Planlanan toplam süre hakkında',
   'tours.planner.plannedTotalManual': 'Elle değiştirilen',
   'tours.planner.timeValueInvalid': '0 ile 1440 dakika arasında tam bir değer girin.',
+  'tours.planner.plannedTotalOverDay':
+    'Yürüyüş süresi ve molalar günde 24 saati aşıyor. Bir durakta “Etabı burada bitir” ile çok günlü bir tura dönüştürün ya da daha kısa bir planlanan toplam süre girin.',
   'tours.planner.walkingTimeUnknown': 'Hesaplanmadı',
   'tours.planner.walkingShort': 'Yürüyüş',
   'tours.planner.breaksShort': 'Molalar',
@@ -956,6 +958,7 @@ const tours: TranslationStrings = {
   'tours.import.archiveNoKmlIn': '{name} içinde KML dosyası bulunamadı',
   'tours.import.archiveTooLargeIn': '{name} açıldığında çok büyük',
   'tours.import.previewDuplicate': 'Zaten seyahatte',
+  'tours.import.previewAdopts': 'Seyahatte iz olarak zaten var, tura dönüşecek',
   'tours.import.previewAllDuplicates': 'Tüm izler zaten seyahatte, içe aktarılacak bir şey yok.',
   'tours.import.previewAs': 'Şu olarak içe aktar',
   'tours.import.previewConfirm': '{count} turu içe aktar',
